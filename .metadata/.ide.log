@@ -1022,3 +1022,34 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 2024-03-07 07:45:50,809 [INFO] McuFinderGlobals:57 - Set McuFinderConnectedMode to true
 2024-03-07 07:45:50,812 [INFO] ApiDb:443 - Save user favorites file C:\Users\User/.stm32cubeide/favorites.mcus.txt: 0 item(s)
 2024-03-07 07:45:50,812 [INFO] ApiDb:447 - User favorites MCUs=[]
+2024-03-07 08:51:14,166 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 714393520 Bytes (1073741824)
+2024-03-07 08:51:18,150 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 742705072 Bytes (1073741824)
+2024-03-07 08:51:21,351 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 779599808 Bytes (1073741824)
+2024-03-07 08:51:21,780 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: NVIC
+2024-03-07 08:51:21,782 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: GPIO
+2024-03-07 08:51:21,783 [INFO] BlockDiagram:2753 - set Specific Code input for plugin: RCC
+2024-03-07 08:51:21,785 [INFO] CodeGenerator:690 - code generatio: config db path: C:\ST\STM32CubeIDE_1.10.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.6.1.202207061420\\db\
+2024-03-07 08:51:22,035 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\MXTmpFiles\license.tmp_save
+2024-03-07 08:51:22,193 [INFO] CodeEngine:269 - Generated code: C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\MXTmpFiles\license.tmp
+2024-03-07 08:51:22,319 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\MXTmpFiles\gpio.tmp_save
+2024-03-07 08:51:22,503 [INFO] CodeEngine:269 - Generated code: C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\MXTmpFiles\gpio.tmp
+2024-03-07 08:51:22,520 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\Core\Src\stm32l1xx_it.c_save
+2024-03-07 08:51:22,656 [INFO] CodeEngine:269 - Generated code: C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\Core\Src\stm32l1xx_it.c
+2024-03-07 08:51:22,664 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\Core\Inc\stm32l1xx_it.h_save
+2024-03-07 08:51:22,860 [INFO] CodeEngine:269 - Generated code: C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\Core\Inc\stm32l1xx_it.h
+2024-03-07 08:51:22,895 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\Core\Src\stm32l1xx_hal_msp.c_save
+2024-03-07 08:51:23,163 [INFO] CodeEngine:269 - Generated code: C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\Core\Src\stm32l1xx_hal_msp.c
+2024-03-07 08:51:23,169 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\MXTmpFiles\system.tmp_save
+2024-03-07 08:51:23,359 [INFO] CodeEngine:269 - Generated code: C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\MXTmpFiles\system.tmp
+2024-03-07 08:51:23,375 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\Core\Inc\stm32l1xx_hal_conf.h_save
+2024-03-07 08:51:23,522 [INFO] CodeEngine:269 - Generated code: C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\Core\Inc\stm32l1xx_hal_conf.h
+2024-03-07 08:51:23,553 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\Core\Inc\main.h_save
+2024-03-07 08:51:23,682 [INFO] CodeEngine:269 - Generated code: C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\Core\Inc\main.h
+2024-03-07 08:51:23,690 [INFO] CodeEngine:245 - oldGeneratedFile, C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\Core\Src\main.c_save
+2024-03-07 08:51:23,939 [INFO] CodeEngine:269 - Generated code: C:\Users\User\STM32CubeIDE\workspace_1.10.1\power\Core\Src\main.c
+2024-03-07 08:51:25,059 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 139mS.
+2024-03-07 08:51:25,065 [INFO] ProjectBuilder:4117 - Project Generator version: 3.17.1
+2024-03-07 08:51:25,494 [INFO] ConfigFileManager:1394 - The Die is : DIE427
+2024-03-07 08:51:29,079 [INFO] ProjectBuilder:4285 - Time for Generating toolchain IDE Files: 4014mS.
+2024-03-07 08:51:29,080 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2024-03-07 08:51:29,167 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.

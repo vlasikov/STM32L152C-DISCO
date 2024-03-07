@@ -16,3 +16,15 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-03-07 07:45:54.000
 !MESSAGE Indexed 'power' (18 sources, 80 headers) in 3.91 sec: 3,950 declarations; 15,274 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.01%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-07 08:45:45.833
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 11 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-07 08:45:45.834
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-07 08:45:45.835
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 11 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2024-03-07 08:45:45.835
+!MESSAGE Existing sessions are:
