@@ -1,0 +1,10 @@
+08:05:25 **** Incremental Build of configuration Debug for project power ****
+make -j4 all 
+arm-none-eabi-size   power.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5232	     20	   1572	   6824	   1aa8	power.elf
+Finished building: default.size.stdout
+ 
+
+08:05:25 Build Finished. 0 errors, 0 warnings. (took 309ms)
+
