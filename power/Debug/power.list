@@ -391,23 +391,25 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_SET);
+	  HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_SET);
  8000490:	2201      	movs	r2, #1
  8000492:	2180      	movs	r1, #128	; 0x80
  8000494:	4807      	ldr	r0, [pc, #28]	; (80004b4 <main+0x38>)
  8000496:	f000 fd31 	bl	8000efc <HAL_GPIO_WritePin>
+	//  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, GPIO_PIN_SET);
 	  HAL_Delay(100);
  800049a:	2064      	movs	r0, #100	; 0x64
  800049c:	f000 faa8 	bl	80009f0 <HAL_Delay>
-	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_RESET);
+	  HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_RESET);
  80004a0:	2200      	movs	r2, #0
  80004a2:	2180      	movs	r1, #128	; 0x80
  80004a4:	4803      	ldr	r0, [pc, #12]	; (80004b4 <main+0x38>)
  80004a6:	f000 fd29 	bl	8000efc <HAL_GPIO_WritePin>
+	//  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, GPIO_PIN_RESET);
 	  HAL_Delay(100);
  80004aa:	2064      	movs	r0, #100	; 0x64
  80004ac:	f000 faa0 	bl	80009f0 <HAL_Delay>
-	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_SET);
+	  HAL_GPIO_WritePin(LD3_GPIO_Port, LD3_Pin, GPIO_PIN_SET);
  80004b0:	e7ee      	b.n	8000490 <main+0x14>
  80004b2:	bf00      	nop
  80004b4:	40020400 	.word	0x40020400
