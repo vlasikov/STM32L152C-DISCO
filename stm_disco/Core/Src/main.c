@@ -91,10 +91,20 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_ADC_Init();
+//  MX_ADC_Init();
   MX_LCD_Init();
-  MX_TS_Init();
+//  MX_TS_Init();
   /* USER CODE BEGIN 2 */
+
+// MAIN
+  /*Configure LCD pins : */
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
+  GPIO_InitStruct.Pin = SEG21_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(SEG21_GPIO_Port, &GPIO_InitStruct);
+
 
   /* USER CODE END 2 */
 
@@ -102,6 +112,14 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+	  	  HAL_GPIO_WritePin(LD3_GPIO_Port, LD4_Pin, GPIO_PIN_SET);
+	  	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, GPIO_PIN_SET);
+	  	HAL_GPIO_WritePin(SEG21_GPIO_Port, SEG21_Pin, GPIO_PIN_SET);
+	  	  HAL_Delay(100);
+	  	  HAL_GPIO_WritePin(LD3_GPIO_Port, LD4_Pin, GPIO_PIN_RESET);
+	  	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8, GPIO_PIN_RESET);
+	   HAL_GPIO_WritePin(SEG21_GPIO_Port, SEG21_Pin, GPIO_PIN_RESET);
+	  	  HAL_Delay(100);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -235,7 +253,7 @@ static void MX_LCD_Init(void)
   hlcd.Instance = LCD;
   hlcd.Init.Prescaler = LCD_PRESCALER_1;
   hlcd.Init.Divider = LCD_DIVIDER_16;
-  hlcd.Init.Duty = LCD_DUTY_1_4;
+  hlcd.Init.Duty = LCD_DUTY_1_2;
   hlcd.Init.Bias = LCD_BIAS_1_4;
   hlcd.Init.VoltageSource = LCD_VOLTAGESOURCE_INTERNAL;
   hlcd.Init.Contrast = LCD_CONTRASTLEVEL_0;
